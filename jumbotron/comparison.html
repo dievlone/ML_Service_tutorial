@@ -18,7 +18,8 @@
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../assets/dist/css/mine.css">
   <link rel="stylesheet" href="../assets/dist/css/typora.css">
-  <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+  <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext'
+    rel='stylesheet' type='text/css' />
 
   <style type='text/css'>
     .bd-placeholder-img {
@@ -42,7 +43,7 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="index.html">AWS Machine Learning Service</a>
+    <a class="navbar-brand" href="index.html">Machine Learning as a Service</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -58,28 +59,22 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">About</a>
           <div class="dropdown-menu animate slideIn" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="index.html">What's AWS ML Service</a>
-            <a class="dropdown-item" href="#">Pros & cons</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="aws.html">What's AWS ML Service</a>
+            <a class="dropdown-item" href="pros.html">Pros & cons</a>
+            <a class="dropdown-item" href="training.html">Training of an Machine Learning Model </a>
           </div>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Research</a>
-          <div class="dropdown-menu animate slideIn" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Test</a>
-            <a class="dropdown-item" href="#">Test</a>
-            <a class="dropdown-item" href="#">Test</a>
-          </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Comparison</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="../assets/files/Project2 Machine Learning Cloud Service.pdf">Tutorial</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">References</a>
+          <a class="nav-link" href="references.html">References</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Video</a>
+          <a class="nav-link" href="https://www.youtube.com/watch?v=dK6IkF40F3U">Video</a>
         </li>
 
       </ul>
@@ -91,75 +86,110 @@
     <br>
     <br>
 
-    <div class="container typora-export os-windows">
-      <div id='write' class=''>
-        <h2><a name="comparison-of-machine-learning-as-a-service" class="md-header-anchor"></a><span>Comparison of
-            Machine Learning as a Service</span></h2>
-        <p>&nbsp;</p>
-        <figure>
-          <table>
-            <thead>
-              <tr>
-                <th><span>Criteria</span></th>
-                <th><span>AWS</span></th>
-                <th><span>Google Cloud</span></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong><span>Machine Learning Services for Predictive Analytics</span></strong></td>
-                <td><span>Amazon Machine Learning</span><br><span>Amazon Sagemaker</span></td>
-                <td><span>Google Cloud AutoML</span><br><span>Google Cloud Machine Learning Engine</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>Machine Learning APIs for speech and text recognition</span></strong></td>
-                <td><span>Amazon Lex</span><br><span>Amazon Transcribe</span><br><span>Amazon
-                    Polly</span><br><span>Amazon Comprehend</span></td>
-                <td><span>Dialogflow</span><br><span>Cloud natural language API</span><br><span>Cloud speech
-                    API</span><br><span>Cloud translation API</span><br><span>AutoML translation
-                    API</span><br><span>AutoML natural language API</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>Machine learning APIs for image and video recognition</span></strong></td>
-                <td><span>Amazon Rekognition</span></td>
-                <td><span>Cloud Vision API</span><br><span>Cloud Video Intelligence</span><br><span>AutoML video
-                    intelligence classification API</span><br><span>AutoML vision API</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>In-built algorithms</span></strong></td>
-                <td><span>Available with Amazon Sagemaker</span></td>
-                <td><span>Avaliable with Google ML Engine</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>Classification</span></strong></td>
-                <td><span>Allowed</span></td>
-                <td><span>Allowed</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>Regression</span></strong></td>
-                <td><span>Allowed</span></td>
-                <td><span>Allowed</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>Clustering</span></strong></td>
-                <td><span>Allowed</span></td>
-                <td><span>Not Allowed</span></td>
-              </tr>
-              <tr>
-                <td><strong><span>Supported Frameworks</span></strong></td>
-                <td>
-                  <span>TensorFlow</span><br><span>Keras</span><br><span>Gluon</span><br><span>Torch</span><br><span>Chainer</span><br><span>Caffe2</span><br><span>Pytorch</span>
-                </td>
-                <td><span>TensorFlow</span><br><span>Keras</span><br><span>Scikit-learn</span><br><span>XGBoost</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </figure>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </div>
+    <div class="container">
+
+      <h2><a name="compaison-of-machine-learning-as-a-service" class="md-header-anchor"></a><span>Comparison of Amazon
+          Sagemaker, Google Cloud ML and Microsoft Azure MLaas</span></h2>
+      <p><span>All three providers are committed to inventing new ML tools, services, and APIs to attract more clients
+          with more advanced solutions. Currently, all of them are going nose-to-nose without any significant gaps in
+          all market segments.It is not surprising that Amazon, being the first of the trio to invest heavily in the
+          cloud, now is trying to lead the way in the ML sphere offering a lot of interesting tools as well as IoT
+          services. But the cherry on top is still their SageMaker solution for training and deploying ML models. The
+          only thing AWS lacks compared to GCP/Azure is the automatic generation of ML models. When it comes to the
+          serverless aspect, AWS has one option more than its competitors. Their Lambda serverless environment
+          neutralizes the need for on-premises hardware. Plus, you can always to deploy any app from their serverless
+          repository. Although Microsoft has fewer ML/AI tools in comparison with Amazon or Google, the company is
+          aiming at high-grade and somewhat specific solutions. For example, their Cognitive Services package includes
+          Anomaly Detection, which is useful in banking for finding and analyzing potentially fraudulent transactions.
+          Just like Google, Microsoft has only one serverless platform. But it does an excellent job managing complex
+          workloads. Azure’s IoT options appeal mostly to business people rather than data scientists and developers.
+          Google reigns supreme being the algorithm trendsetter and SEO champion. As for their AI and ML solutions,
+          those are vast and comprehensive. Google APIs excel in the speech and text department, offering more
+          languages that can be automatically recognized, transcribed, and analyzed. With the number of services and
+          APIs Google has, it can play on par with others in the AI/ML segment, but in the IoT category, Google falls
+          behind – there are just Cloud IoT Core and Cloud IoT Edge. Serverless technologies are represented by Cloud
+          Functions, but the company promises to extend the range of services soon. Right now, we can say that the
+          future of ML implementation with GCP looks very promising.</span></p>
+      <p>&nbsp;</p>
+      <figure>
+        <table>
+          <thead>
+            <tr>
+              <th><span>Criteria</span></th>
+              <th><span>AWS</span></th>
+              <th><span>Google Cloud</span></th>
+              <th><span>Microsoft </span><strong><span>Azure</span></strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong><span>Machine Learning Services for Predictive Analytics</span></strong></td>
+              <td><span>Amazon Machine Learning</span><br><span>Amazon Sagemaker</span></td>
+              <td><span>Google Cloud AutoML</span><br><span>Google Cloud Machine Learning Engine</span></td>
+              <td><span> Microsoft Azure Machine Learning Studio</span><br><span>Microsoft Azure Machine Learning
+                  Services</span><br><span>Cortana Itelligence Gallery</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>Machine Learning APIs for speech and text recognition</span></strong></td>
+              <td><span>Amazon Lex</span><br><span>Amazon Transcribe</span><br><span>Amazon
+                  Polly</span><br><span>Amazon Comprehend</span></td>
+              <td><span>Dialogflow</span><br><span>Cloud natural language API</span><br><span>Cloud speech
+                  API</span><br><span>Cloud translation API</span><br><span>AutoML translation
+                  API</span><br><span>AutoML natural language API</span></td>
+              <td><span>Translator Speech API</span><br><span>Bing Speech API</span><br><span>Speaker Recognition
+                  API</span><br><span>Language Understanding Intelligent Service (LUIS)</span><br><span>Linguistic
+                  Analysis API</span><br><span>Text Analysis API</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>Machine learning APIs for image and video recognition</span></strong></td>
+              <td><span>Amazon Rekognition</span></td>
+              <td><span>Cloud Vision API</span><br><span>Cloud Video Intelligence</span><br><span>AutoML video
+                  intelligence classification API</span><br><span>AutoML vision API</span></td>
+              <td><span>Microsoft Azure Cognitive Services</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>In-built algorithms</span></strong></td>
+              <td><span>Available with Amazon Sagemaker</span></td>
+              <td><span>Avaliable with Google ML Engine</span></td>
+              <td><span>No in-built algorithms</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>Classification</span></strong></td>
+              <td><span>Allowed</span></td>
+              <td><span>Allowed</span></td>
+              <td><span>Allowed</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>Regression</span></strong></td>
+              <td><span>Allowed</span></td>
+              <td><span>Allowed</span></td>
+              <td><span>Allowed</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>Clustering</span></strong></td>
+              <td><span>Allowed</span></td>
+              <td><span>Not Allowed</span></td>
+              <td><span>Allowed</span></td>
+            </tr>
+            <tr>
+              <td><strong><span>Supported Frameworks</span></strong></td>
+              <td>
+                <span>TensorFlow</span><br><span>Keras</span><br><span>Gluon</span><br><span>Torch</span><br><span>Chainer</span><br><span>Caffe2</span><br><span>Pytorch</span>
+              </td>
+              <td><span>TensorFlow</span><br><span>Keras</span><br><span>Scikit-learn</span><br><span>XGBoost</span>
+              </td>
+              <td><span>TensorFlow</span><br><span>Keras</span><br><span>Scikit-learn</span><br><span>XGBoost</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </figure>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
     </div>
+
+
 
   </main>
 

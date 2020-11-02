@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title>ML Service pros&cons</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/dist/css/mine.css">
+  <link rel="stylesheet" href="../assets/dist/css/mine.css">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="index.html">Machine Learning as a Service</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+
+        <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">About</a>
+          <div class="dropdown-menu animate slideIn" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">What's AWS ML Service</a>
+            <a class="dropdown-item" href="pros.html">Pros & cons</a>
+            <a class="dropdown-item" href="training.html">Training of an Machine Learning Model </a>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../assets/files/Project2 Machine Learning Cloud Service.pdf">Tutorial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="references.html">References</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/watch?v=dK6IkF40F3U">Video</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <br>
+    <br>
+    <div class="container">
+      <img src="https://miro.medium.com/max/538/1*glyCFpRjY4l4x8J7BoJAng.png">
+    </div>
+
+    <div class="container">
+
+      <p><span>AWS offers a broad set of </span><a
+          href='https://aws.amazon.com/machine-learning/#Explore_AWS_Machine_Learning_services'><span>machine learning
+            services</span></a><span> with supporting cloud </span><a
+          href='https://aws.amazon.com/machine-learning/infrastructure/?c=ml&amp;sec=int'><span>infrastructure</span></a><span>,
+          putting machine learning in the hands of every developer, data scientist, and expert practitioner.</span>
+      </p>
+      <br>
+      <br>
+      <h3><a name="what-is-aws-machine-learning" class="md-header-anchor"></a><span>What is AWS Machine
+          Learning?</span></h3>
+      <p><strong><span>Amazon Machine Learning</span></strong><span> is a service that allows users to develop
+          predictive applications by using algorithms, mathematical models based on the user’s data.</span></p>
+      <p><span>It provides visualization tools to guide the users through the process of creating machine learning
+          (ML) models without having to learn complex ML algorithms and technology. It reads data through Amazon S3,
+          Redshift, and RDS then visualizes the data through the AWS Management Console and the Amazon Machine
+          Learning API.</span></p>
+      <p><span>This data can be imported or exported to other AWS services via S3 buckets.</span></p>
+      <p><span>It uses an “industry-standard logistic regression” algorithm to generate models.</span></p>
+      <p><span>Types of Tasks Performed by Amazon Machine Learning</span></p>
+      <p><span>Three different types of tasks can be performed by Amazon Machine learning service</span></p>
+      <ul>
+        <li><span>A binary classification model: It can predict one of the two possible results, i.e. either yes or
+            no.</span></li>
+        <li><span>A multi-class classification model: It can predict multiple conditions. For example, it can track
+            customer&#39;s online orders.</span></li>
+        <li><span>A regression model: Regression models can predict the best-selling price for a product or the number
+            of units that will sell.</span></li>
+      </ul>
+    </div>
+    <br>
+    <div class="container">
+      <h3>Machine Learning Services in AWS</h3>
+      <br>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        SageMaker
+      </button>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Amazon SageMaker is a fully managed service that can help machine learning developers and data scientists
+          quickly build, train, and deploy models. Easy. AmazonSageMaker Autopilot can automatically check raw data,
+          select the best set of algorithm parameters, train and tune multiple models, track model performance, and rank
+          models based on performance. In this way, you can greatly change the time required to find the best model.
+          Supported frameworks include: TensorFlow, PyTorch, Apache MXNet, Chainer, Keras, Gluon, Horovod, Scikit-learn
+          and Deep Graph Library.
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2"
+        aria-expanded="false" aria-controls="collapseExample">
+        Amazon Comprehend
+      </button>
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+          Amazon Comprehend service uses natural language processing (NLP) to analyze text. Comprehend allows developers
+          to add custom lists without the need for an in-depth machine learning or natural language processing
+          background. It will take on the responsibility of building, training and hosting customized machine learning
+          models and provide these models through a private API
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3"
+        aria-expanded="false" aria-controls="collapseExample">
+        Amazon Translate
+      </button>
+      <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+          Amazon Translate is a reasonable neural machine translation service that uses advanced machine learning
+          technology to provide rapid language translation of text-based content and supports the development of
+          multilingual user experience applications. Enterprises can now more easily expand products
+          and services in other regions by allowing users to use automated language translation to access websites,
+          information, and resources in their preferred language.
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample4"
+        aria-expanded="false" aria-controls="collapseExample">
+        Amazon Rekognition
+      </button>
+      <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+          Amazon Rekognition allows you to easily add image and video analysis capabilities to your application. You
+          only need to provide images or videos to the Rekognition API, and the service can identify objects, people,
+          text, scenes, and activities, and detect any inappropriate content. Amazon Rekognition also provides highly
+          accurate facial analysis and facial recognition functions for the images and videos you provide.
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <br>
+  <br>
+  <br>
+  <footer class="container">
+    <p>&copy; Project2</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+  </script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
